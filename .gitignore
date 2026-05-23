@@ -1,23 +1,15 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+01_RawData/
+02_Bases_Stata/
+04_Resultados/
+05_Graficas/
+06_Tablas/
+07_Logs/
+
+# Archivos temporales de Stata
+*.smcl
+*.log
+*.tmp
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
